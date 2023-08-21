@@ -1,4 +1,4 @@
-# Проект: Восстановление золота из руды
+# Восстановление золота из руды
 
 ## Описание проекта
 
@@ -10,6 +10,23 @@ gold_industry_full.csv — исходные данные. \
 Некоторые параметры недоступны, потому что замеряются и/или рассчитываются значительно позже. Из-за этого в тестовой выборке отсутствуют некоторые признаки, которые могут быть в обучающей. Также в тестовом наборе нет целевых признаков.
 Исходный датасет содержит обучающую и тестовую выборки со всеми признаками.
 В вашем распоряжении сырые данные: их просто выгрузили из хранилища. Прежде чем приступить к построению модели, необходимо проверить их на корректность.
+
+## Навыки и инструменты
+
+* pandas
+* numpy
+* seaborn
+* matplotlib.pyplot
+* sklearn.preprocessing.StandardScaler
+* sklearn.ensemble.RandomForestRegressor
+* sklearn.metrics.make_scorer
+* sklearn.model_selection.cross_val_score
+* sklearn.tree.DecisionTreeRegressor
+* sklearn.linear_model.LinearRegression
+* sklearn.dummy.DummyRegressor
+* sklearn.pipeline.make_pipeline
+* sklearn.model_selection.GridSearchCV
+* sklearn.model_selection.RandomizedSearchCV
 
 ## Вывод:
     

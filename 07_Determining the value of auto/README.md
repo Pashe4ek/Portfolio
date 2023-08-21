@@ -1,4 +1,4 @@
-# Проект:Определение стоимости автомобилей
+# Определение стоимости автомобилей
 
 ## Описание проекта
 
@@ -29,6 +29,22 @@ PostalCode — почтовый индекс владельца анкеты (п
 LastSeen — дата последней активности пользователя \
 Целевой признак: \
 Price — цена (евро) 
+
+## Навыки и инструменты
+
+* pandas
+* statistics.mode
+* time
+* numpy
+* lightgbm
+* sklearn.model_selection.train_test_split
+* sklearn.ensemble.RandomForestRegressor
+* sklearn.tree.DecisionTreeRegressor
+* sklearn.preprocessing.StandardScaler
+* sklearn.preprocessing.OrdinalEncoder
+* sklearn.metrics.mean_squared_error
+* sklearn.model_selection.GridSearchCV
+* sklearn.metrics.make_scorer
 
 ## Вывод:
 

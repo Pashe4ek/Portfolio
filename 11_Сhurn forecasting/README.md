@@ -1,4 +1,4 @@
-# Выпускной проект: Телеком
+# Прогнозирование оттока клиентов
 
 ## Описание проекта
 
@@ -31,6 +31,30 @@ phone_new.csv — информация об услугах телефонии. \
 Задачей данной работы является построение модели по оттоку клиентов на основе предоставленных данных командой оператора. \
 Основная метрика: AUC-ROC. Она должна быть не менее 0.85 \
 Дополнительная метрика: Accuracy.
+
+## Навыки и инструменты
+
+* pandas
+* seaborn
+* numpy
+* time
+* matplotlib.pyplot
+* phik
+* imblearn.over_sampling.SMOTE
+* imblearn.pipeline.Pipeline
+* sklearn.model_selection.train_test_split
+* sklearn.model_selection.cross_val_score
+* sklearn.model_selection.GridSearchCV
+* sklearn.linear_model.LogisticRegression
+* sklearn.ensemble.RandomForestClassifier
+* sklearn.metrics.roc_auc_score
+* sklearn.metrics.accuracy_score
+* sklearn.preprocessing.StandardScaler
+* sklearn.preprocessing.OneHotEncoder
+* sklearn.compose.make_column_transformer
+* sklearn.metrics
+* catboost.CatBoostClassifier
+
 
 ## Заключение (Отчет)
 

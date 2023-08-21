@@ -7,6 +7,27 @@
 Необходимо пострить модель с предельно большим значением F1-меры. 
 Дополнительно измеряйте AUC-ROC, сравнивайте её значение с F1-мерой.
 
+## Навыки и инструменты
+
+* pandas
+* numpy
+* matplotlib.pyplot
+* sklearn.preprocessing.StandardScaler
+* sklearn.model_selection.train_test_split
+* sklearn.tree.DecisionTreeClassifier
+* sklearn.ensemble.RandomForestClassifier
+* sklearn.linear_model.LogisticRegression
+* sklearn.metrics.f1_score
+* sklearn.metrics.roc_auc_score
+* sklearn.model_selection.RandomizedSearchCV
+* sklearn.utils.shuffle
+* sklearn.model_selection.GridSearchCV
+* sklearn.metrics.roc_curve
+* sklearn.preprocessing.OneHotEncoder
+* sklearn.feature_selection.mutual_info_classif
+* random.randrange
+* tqdm
+
 ## Описание данных
 
 Признаки: \

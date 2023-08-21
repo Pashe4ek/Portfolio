@@ -7,6 +7,20 @@
 Контролировать добросовестность кассиров при продаже алкоголя.
 Необходимо построить и обучить свёрточную нейронную сеть на датасете с фотографиями людей. Необходимо добится значения MAE на тестовой выборке не больше 8.
 
+## Навыки и инструменты
+
+* pandas
+* tensorflow.keras.preprocessing.image.ImageDataGenerator
+* matplotlib.pyplot
+* seaborn
+* numpy
+* tensorflow.keras.preprocessing.image.ImageDataGenerator
+* tensorflow.keras.applications.resnet.ResNet50
+* tensorflow.keras.layers.Dense
+* tensorflow.keras.layers.GlobalMaxPool2D
+* tensorflow.keras.models.Sequential
+* tensorflow.keras.optimizers.Adam
+
 ## Анализ обученной модели
 
 Мы разработали модель для супермаркета, которая по фотографии покупателя может определит его примерный возраст. \
