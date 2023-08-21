@@ -14,8 +14,6 @@
 ## Навыки и инструементы
 
 * pandas 
-* nltk
-* re
 * lightgbm
 * tqdm.notebook.tqdm
 * nltk.corpus.stopwords.nltk_stopwords

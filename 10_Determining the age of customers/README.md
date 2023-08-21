@@ -10,7 +10,6 @@
 ## Навыки и инструменты
 
 * pandas
-* tensorflow.keras.preprocessing.image.ImageDataGenerator
 * matplotlib.pyplot
 * seaborn
 * numpy
