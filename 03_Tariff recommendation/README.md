@@ -6,6 +6,18 @@
 У нас есть данные о поведении клиентов, которые уже перешли на эти тарифы. Нужно построить модель для задачи классификации, которая выберет подходящий тариф. Предобработка данных уже выполнена ранее.
 Необходимо построить модель с максимально большим значением accuracy. 
 
+## Навыки и инструменты
+
+* pandas
+* matplotlib.pyplot
+* seaborn
+* sklearn.model_selection.train_test_split
+* sklearn.dummy.DummyClassifier
+* sklearn.tree.DecisionTreeClassifier
+* sklearn.ensemble.RandomForestClassifier
+* sklearn.linear_model.LogisticRegression
+* sklearn.metrics.accuracy_score
+
 ## Описание данных 
 
 Каждый объект в наборе данных — это информация о поведении одного пользователя за месяц. Известно: \
